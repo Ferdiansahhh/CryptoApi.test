@@ -1,0 +1,148 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/chain.jpg);
+  background-size: cover;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 20px 0;
+  width: 1000px;
+  height: 30px;
+  background-color: #222;
+  border-style: solid;
+  border-color: red;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+  align-items: center;
+  justify-content: center;
+  display: Flex;
+  flex-direction: row;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.firstname {
+  color: white;
+  font-weight: 700;
+}
+
+.lastname {
+  color: Gold;
+  font-weight: 500;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigation > li > a {
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigation > li > a:hover {
+  color: crimson;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation > li > img {
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 45px;
+  height: 50;
+  border-radius: 20px;
+}
+
+.navigation > li > img:hover {
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 50px;
+  height: 50;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.active {
+  background-color: Crimson;
+  color: white;
+  padding: 10px;
+}
+
+.active:hover {
+  color: white !important;
+}
+
+.content {
+  color: white;
+  margin-top: 400px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.content a {
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.content h1 span {
+  color: gold;
+}
+
+.coin-list {
+  position: absolute;
+  right: 14%;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin: 0 15px;
+  color: white;
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.coin img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.coin p {
+  color: #ff960b;
+}
